@@ -3,6 +3,7 @@ CLAUDE.md
 .env
 .env.local
 .env.*.local
+test_whisper_api.py
 
 # Python / Django Backend
 __pycache__/
