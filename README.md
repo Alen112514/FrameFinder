@@ -2,7 +2,7 @@
 
 A full-stack web application for intelligent video search and conversation using natural language processing, semantic search, and AI-powered analysis.
 
-## 🎬 Features
+## Features
 
 ### 1. **Smart Video Upload**
 
@@ -40,7 +40,7 @@ A full-stack web application for intelligent video search and conversation using
 - Connection management with automatic reconnection
 - Live status indicators for all operations
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -67,7 +67,7 @@ A full-stack web application for intelligent video search and conversation using
 - **Language Model**: Google Gemini 2.5 Flash with structured output
 - **Agent Framework**: LangGraph for conversational AI
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -121,7 +121,7 @@ A full-stack web application for intelligent video search and conversation using
 
 3. **Access**: http://localhost:3000
 
-## 🔧 Architecture
+## Architecture
 
 ### Processing Pipeline
 
@@ -152,7 +152,7 @@ Frontend ←→ Django Channels ←→ LangGraph Agent ←→ Video Search
 UI Updates    Message Routing    AI Processing    Semantic Analysis
 ```
 
-## 📡 API Reference
+## API Reference
 
 ### REST Endpoints
 
@@ -179,7 +179,7 @@ UI Updates    Message Routing    AI Processing    Semantic Analysis
 }
 ```
 
-## 🔧 Development
+## Development
 
 ### Backend Development
 
@@ -229,7 +229,7 @@ uv run backend/test_whisper_api.py
 # Browser DevTools → Network → EventStream
 ```
 
-## 🎯 Configuration
+## Configuration
 
 ### Whisper Options
 
@@ -260,7 +260,7 @@ uv run backend/test_whisper_api.py
 - **Embedding Model**: Cached globally for efficiency
 - **Database**: Consider PostgreSQL for production
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -285,10 +285,10 @@ uv run manage.py shell
 tail -f backend/logs/django.log
 ```
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
 ---
 
-**FrameFinder** - Intelligent video search powered by AI 🎬✨
+**FrameFinder** - Intelligent video search powered by AI
